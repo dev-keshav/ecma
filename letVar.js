@@ -22,6 +22,7 @@ for(var i=0; i<10; i++){
     }, 1000)
 }
 
+// This will print 0 to 9 
 for(let j=0; j<10; j++){
     setTimeout(() => {
         console.log(j);
