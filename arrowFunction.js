@@ -13,10 +13,10 @@ console.warn(arrorFun)
 let items = {
     name: 'Anil',
     getName:function(){
-        console.log("Normal->", this)
+        console.log("Normal function ->", this)
     },
     getNameArrow:()=>{
-        console.log("Arrow ->", this)
+        console.log("Arrow function ->", this)
     }
 }
 
