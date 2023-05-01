@@ -8,3 +8,17 @@ console.log(normalFun);
 
 let arrorFun = data.map((item)=>item*4)
 console.warn(arrorFun)
+
+
+let items = {
+    name: 'Anil',
+    getName:function(){
+        console.log("Normal->", this)
+    },
+    getNameArrow:()=>{
+        console.log("Arrow ->", this)
+    }
+}
+
+items.getName();
+items.getNameArrow();
