@@ -1,3 +1,5 @@
+// ------------------- The use of this keyword in normal and arrow function --------------------
+
 let data = {
     list: "Names",
     friends: ['Adi', 'Vaibhav', 'Rahul', 'Dev', 'Teej'],
