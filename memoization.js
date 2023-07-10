@@ -31,6 +31,7 @@ const fun2 = () => {
   };
 };
 
+// we can't call closure function directly, we make a object like this: 
 const ans = fun2();
 ans(7);
 ans(7);
