@@ -28,3 +28,17 @@ for(let j=0; j<10; j++){
         console.log(j);
     }, 1000);
 }
+
+
+// t=4444;
+// u=5555;
+// function fun1(){
+//     setTimeout(() => {
+//         console.log("This will give the output");
+//         console.log(t);
+//         console.log(u);
+//     }, 3000);
+//     var t;
+//     let u;
+// }
+// fun1();
