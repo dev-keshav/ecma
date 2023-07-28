@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    Promise
+
+    <script>
+      let readTheBook = false;
+
+      let readBook = new Promise(function (resolve, reject) {
+        setTimeout(function () {
+          if (readTheBook) {
+            resolve("I have read the book");
+          } else {
+            reject("I haven't read the book");
+          }
+        }, 3000);
+      });
+
+      readBook.then((success) => console.log(success));
+      readBook.catch((reason) => console.log(reason));
+      readBook.finally(console.log("Solved "))
+    </script>
+  </body>
+</html>
